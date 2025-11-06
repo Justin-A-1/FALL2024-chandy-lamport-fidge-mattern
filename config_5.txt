@@ -1,0 +1,30 @@
+# Configuration file for 5-node system in 5-pointed star topology
+
+
+TESTING
+
+# Global parameters: numNodes minPerActive maxPerActive minSendDelay snapshotDelay maxNumber
+   5     3         10   500        2000      10           
+
+
+
+
+# Node definitions: nodeID hostName port
+   0     dc30      1230                  #TESTING
+
+     1    dc31           1231#TESTING
+2 dc32 1232
+3 dc33 1233
+4 dc34 1234
+
+2 3#TESTING #Neighbors of node 0
+
+3 4#TESTING #Neighbors of node 1
+
+4 0         #Neighbors of node 2
+
+1 0         #Neightbors of node 3
+
+1 2         #Neighbors of node 4
+
+

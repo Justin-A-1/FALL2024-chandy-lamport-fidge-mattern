@@ -1,0 +1,26 @@
+# Configuration file for 7-node system in 7-pointed star topology
+
+# Global parameters: numNodes minPerActive maxPerActive minSendDelay snapshotDelay maxNumber
+7 6 10 100 2000 40
+
+# Node definitions: nodeID hostName port
+0 dc11 1234
+1 dc12 1235
+2 dc13 1236
+3 dc14 1237
+4 dc15 1238
+5 dc16 1239
+6 dc17 1240
+
+# Neighbor lists for each node (nodeID: neighbors)
+2 5       # Neighbors of node 0
+3 6       # Neighbors of node 1
+4 0       # Neighbors of node 2
+5 1       # Neighbors of node 3
+6 2       # Neighbors of node 4
+0 3       # Neighbors of node 5
+1 4       # Neighbors of node 6
+
+
+
+

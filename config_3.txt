@@ -1,0 +1,25 @@
+
+
+TESTING
+
+
+   3     2         3   100        2000      50           
+
+
+
+
+
+   0     dc30      1230                  #TESTING
+
+     1    dc31           1231#TESTING
+2 dc32 1232
+
+1 2#TESTING
+
+0 2#TESTING
+
+
+0 1
+
+
+
